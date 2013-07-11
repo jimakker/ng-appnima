@@ -102,7 +102,7 @@ angular.module('jimakker.ng-appnima', []).
 		        });
     		},
     		sms: function(user_id,body,callback){
-    			Appnima.Messenger.sms(user_id,body).then(function (error,result) {  
+    			Appnima.Messenger.SMS(user_id,body).then(function (error,result) {  
 		          $timeout(function () {
 		            callback(error, result);
 		          }, 0);
