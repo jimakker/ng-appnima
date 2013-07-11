@@ -30,3 +30,9 @@ function MyCtrl1(appnima) {
 ``` 
 
 
+TODO
+====
+
++ Add socket API
++ Refactor & clean code
++ ...
