@@ -38,8 +38,8 @@ angular.module('jimakker.ng-appnima', []).
     		Appnima.User.logout()
     			.then(function (error,result) {  
     				resolveDeferred(deferred,error,result);
-		        }, 0);
-			return deferred.promise;		        
+		        });
+		    return deferred.promise;		        
     	};
 
     	var userInfo = function(update) {
@@ -318,6 +318,7 @@ angular.module('jimakker.ng-appnima', []).
     	// SERVICE
 
     	return {
+    		
     		User : {
     			signup : signup,
     			login : login,

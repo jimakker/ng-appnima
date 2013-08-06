@@ -23,8 +23,8 @@ By default ng-appnima gets the `Appnima.key` from an AngularJS service called `a
 
  ```javascript
 
-angular.module('myApp.services', []).
-  value('appnima_key', 'YOUR_API_KEY').
+angular.module('myApp.services', [])
+	.value('appnima_key', 'YOUR_API_KEY');
 
 ```
 
